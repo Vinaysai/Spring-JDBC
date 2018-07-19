@@ -14,8 +14,8 @@ public class TestClass {
 		StudentServiceImpl ss = (StudentServiceImpl) ac.getBean("StudentService", StudentServiceImpl.class);
 
 		BeanClass bc = new BeanClass();
-		bc.setId(501);
-		bc.setName("A Saran Kumar");
+		bc.setId(537);
+		bc.setName("Vinaysai");
 		bc.setCollege("SVCET");
 		System.out.println(ss.insert(bc));
 
